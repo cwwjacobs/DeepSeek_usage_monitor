@@ -1,0 +1,21 @@
+{
+  "name": "deepseek-usage-monitor",
+  "version": "1.0.0",
+  "description": "Standalone TUI usage monitor for DeepSeek API — live balance, pricing, and multi-currency support",
+  "main": "cli.ts",
+  "scripts": {
+    "start": "npx tsx cli.ts"
+  },
+  "keywords": ["deepseek", "usage", "monitor", "tui", "balance", "pricing", "cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ink": "^5.2.0",
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
